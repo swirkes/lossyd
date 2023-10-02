@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T06:16:08.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" version="22.0.0" etag="r1MQlQkNXUqahYsX_WZa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T06:25:26.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="CkI6jg--kFkDimC_R4Jz" version="22.0.0" type="github">
   <diagram name="Page-1" id="cTnK0_f6Aq1QVpPQXtqg">
-    <mxGraphModel>
+    <mxGraphModel dx="686" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-1" value="HackRF One" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-2" value="&lt;div&gt;Keyboard&lt;/div&gt;&lt;div&gt;(TKL)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-3" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-4" value="16 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-5" value="4 USB Ports" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-6" value="Bluetooth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-7" value="&lt;div&gt;Wi-Fi Adapter&amp;nbsp;&lt;/div&gt;&lt;div&gt;(AP Mode)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-8" value="HDMI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-9" value="HD Audio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-10" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-11" value="1 TB Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-12" value="&lt;div&gt;Antenna&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-13" value="GNU Radio Companion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-14" value="SuperCollider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-15" value="GQRX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-16" value="Python3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="la4hTZdo2H9IoEWc5qBR-17" value="Jupyter Notebooks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
