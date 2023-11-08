@@ -1,0 +1,3 @@
+[submodule "SoapyHackRF"]
+	path = SoapyHackRF
+	url = https://github.com/pothosware/SoapyHackRF/
