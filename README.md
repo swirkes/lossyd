@@ -20,25 +20,13 @@ that facilitates interactions between human and non-human entities. Currently, l
 
 Speculation stems from the desire to fully give up control of lossyd's operation, but being unable to. Though there are programmed elements, it doesn't function as a typical computer daemon program. The possibility of a meaningful exchange between a human and the air pressure variations via audible sound is open to interpretation.
 
-## lossyp
-
-an e.p. of processed recordings from the [[2.4 GHz Wi-Fi Band]]. Designed as a proof of concept, they were created by using an [RTL-SDR](https://rtl-sdr.com) dongle connected to a [dipole antenna](https://en.wikipedia.org/wiki/Dipole_antenna), 6 cm on each side. 
-
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3347679295/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless></iframe>
+![featured image](/Images/featured.jpg)
 
 ## Implementation
 
-Using an [RTL-SDR](https://www.rtl-sdr.com) dongle and a bipolar antenna, about 6 cm long, different methods produced different results. Direct Sampling was engaged in order to reach the super-high frequency bands. The most lively results came from using I/Q sampling with a 10k bandwidth and then tuning into different data streams. 
+A python script receives input from HackRF One, modulates the data into the audible spectrum and passes it, via OSC message, to SuperCollider.
+
+The SuperCollider project instantiates a synth with 25 oscillators, paired with the 25 frequency bins from the HackRF One. It plays a continuous sine wave drone with tiny changes in frequency and amplitude given by the dynamic Wi-Fi signal.
 
 The sound seems very static, however, when resonance effects are added, the microchanges in sound are amplified and more easily discerned.
-
-![[Screenshot 2022-12-19 at 22.15.14.png]]
-*a screenshot from CubicSDR using Double Sideband with a 20k bandwidth in the 2.4GHz space*
-
-
-## ![A dialogue with chatGPT about a website name] (/A dialogue with chatGPT about a website name.md)
-
-## [DALL-E Generated Images] (/images/DALL-E Generated Images.md)
-
-
 
